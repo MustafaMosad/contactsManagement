@@ -1,0 +1,17 @@
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div><h2  class="navbar-brand">
+          Contacts Management System</h2>
+            </div>
+
+        <ul class="navbar-nav">
+            <li><a *ngIf="loginService.isUserLoggedIn()" routerLink="/home" class="nav-link">Home</a></li>
+            <li><a *ngIf="loginService.isUserLoggedIn()" routerLink="/contacts" class="nav-link">MyContacts</a></li>
+        </ul>
+
+        <ul class="navbar-nav navbar-collapse justify-content-end">
+                <li><a *ngIf="loginService.isUserLoggedIn()" routerLink="/login" (click)="handleLogOut()" class="nav-link">Logout</a></li>
+              </ul>
+
+              </nav>
+</header>

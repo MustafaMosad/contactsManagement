@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Adding New Contact</h1>
+    <hr>
+
+    <input type="text" placeholder="First Name" name="firstName" required [(ngModel)]="firstName">
+
+    <input type="text" placeholder="Last Name" name="lastName" required [(ngModel)]="lastName">
+
+    <input type="text" placeholder="Email" name="email" required [(ngModel)]="email">
+    <input type="text" placeholder="Phone" name="phone" required [(ngModel)]="phone">
+
+    <hr>
+            <ul *ngIf='messages'>
+                <li *ngFor="let message of messages">
+                  {{ message }}
+                </li>
+              </ul>
+    <button type="submit" (click)=handleAddContactSubmition() class="savebtn">Save</button>
+  </div>

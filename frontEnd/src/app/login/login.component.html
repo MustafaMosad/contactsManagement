@@ -1,0 +1,23 @@
+
+<div class="container">
+    <H1>Login!</H1>
+
+  <div class="fileds">
+     <input type="text" placeholder="Email" name="username" [(ngModel)]="username">
+     <br/>
+     <input type="password" placeholder="Password" name="password" [(ngModel)]="password">
+     <br/>
+
+     <div class="error" *ngIf='invalidLogin'>{{errorMessage}}</div>
+
+    <button (click)=handleJWTAuthLogin() class="loginButton">Login</button>
+    <div class= "signUp">
+        <nav>
+          <p>or create a new account now!
+              <a routerLink="/registration" routerLinkActive="active">SignUp</a>
+          </p>
+          
+        </nav>
+      </div>
+  </div>
+</div>

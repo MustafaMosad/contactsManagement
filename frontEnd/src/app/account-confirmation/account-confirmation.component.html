@@ -1,0 +1,16 @@
+<div id="outer">  
+    <div id="inner" *ngIf = 'isValidConfirmation'>
+      <h1>Congratulation Your Account Has Been Confirmed !</h1>
+      
+    </div>
+    <div id="inner" *ngIf='!isValidConfirmation'> 
+        <h1>OOps Something go wrong please contact support team !</h1>
+    </div>
+    
+    <div id="signIn" >
+        <p>Go to Login page   <a routerLink="/login" routerLinkActive="active">     
+          SignIn</a></p>
+    </div>
+
+ 
+  </div>

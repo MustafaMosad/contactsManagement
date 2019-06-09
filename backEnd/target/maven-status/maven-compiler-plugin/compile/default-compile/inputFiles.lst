@@ -1,0 +1,15 @@
+/home/moustafa/work/eclipse/contacts/src/main/java/com/assignment/managment/contacts/security/jwt/resources/JwtTokenResponse.java
+/home/moustafa/work/eclipse/contacts/src/main/java/com/assignment/managment/contacts/ContactsApplication.java
+/home/moustafa/work/eclipse/contacts/src/main/java/com/assignment/managment/contacts/security/jwt/resources/AuthenticationException.java
+/home/moustafa/work/eclipse/contacts/src/main/java/com/assignment/managment/contacts/security/jwt/JwtTokenAuthorizationOncePerRequestFilter.java
+/home/moustafa/work/eclipse/contacts/src/main/java/com/assignment/managment/contacts/security/jwt/JWTWebSecurityConfig.java
+/home/moustafa/work/eclipse/contacts/src/main/java/com/assignment/managment/contacts/model/Role.java
+/home/moustafa/work/eclipse/contacts/src/main/java/com/assignment/managment/contacts/dao/RoleRepository.java
+/home/moustafa/work/eclipse/contacts/src/main/java/com/assignment/managment/contacts/model/User.java
+/home/moustafa/work/eclipse/contacts/src/main/java/com/assignment/managment/contacts/security/jwt/JwtTokenUtil.java
+/home/moustafa/work/eclipse/contacts/src/main/java/com/assignment/managment/contacts/dao/UserRepository.java
+/home/moustafa/work/eclipse/contacts/src/main/java/com/assignment/managment/contacts/security/jwt/resources/JwtAuthenticationRestController.java
+/home/moustafa/work/eclipse/contacts/src/main/java/com/assignment/managment/contacts/security/jwt/JwtInMemoryUserDetailsService.java
+/home/moustafa/work/eclipse/contacts/src/main/java/com/assignment/managment/contacts/security/jwt/JwtUnAuthorizedResponseAuthenticationEntryPoint.java
+/home/moustafa/work/eclipse/contacts/src/main/java/com/assignment/managment/contacts/security/jwt/resources/JwtTokenRequest.java
+/home/moustafa/work/eclipse/contacts/src/main/java/com/assignment/managment/contacts/security/jwt/JwtUserDetails.java

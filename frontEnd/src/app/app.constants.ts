@@ -1,0 +1,10 @@
+export const API_URL = "http://localhost:8080"
+export const login_Api = "authenticate"
+export const registration_Api = "registration"
+export const account_confirmation_Api = "confirm"
+export const contacts_Api = "contacts"
+export const addContact = "addUserContact"
+export const retrieveContacts="retrieveUserContacts"
+export const updateContact="updateUserContact"
+export const removeContact="removeUserContact"
+
